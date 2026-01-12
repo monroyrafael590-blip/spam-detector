@@ -23,9 +23,10 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
     'spam_api',
-    'whitenoise',  # ← AGREGADO para archivos estáticos en Render
 ]
+
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
